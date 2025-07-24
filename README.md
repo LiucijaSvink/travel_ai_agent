@@ -38,7 +38,7 @@ The application uses a LangGraph-based supervisor agent to orchestrate specializ
 
 ### Agents
 
-- `travel_preference_agent`: Extracts and confirms core travel preferences
+- `preference_agent`: Extracts and confirms core travel preferences
 - `interest_agent`: Extracts user preferences related to activities (e.g., history, nightlife, nature)
 - `action_agent`: Executes tools for accommodation search, popular attraction discovery, or personalized activity suggestions
 

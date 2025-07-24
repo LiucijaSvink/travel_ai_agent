@@ -1,6 +1,4 @@
 from langchain_core.tools import tool
-from amadeus import Client, ResponseError
-
 from utils.utils import get_api_key
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI

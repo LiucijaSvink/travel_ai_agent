@@ -1,6 +1,4 @@
 from langchain_core.tools import tool
-from amadeus import Client, ResponseError
-
 from utils.utils import get_api_key
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
@@ -10,7 +8,7 @@ from agents.schema import ActivityPreferences
 tool_llm = ChatOpenAI(model="gpt-4o", temperature=0)
 
 @tool
-def extract_activity_information(input: str) -> ActivityPreferences:
+def extract_activity_information(input: str) -> dict:
     """
     Extract structured activity preferences (interests, avoids, transport) from user input text.
     """

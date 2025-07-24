@@ -106,5 +106,6 @@ This application uses only legally licensed APIs and publicly available data sou
 
 ## Future Improvements
 
-- **Scalability:** Migrate to a more scalable cloud infrastructure with auto-scaling capabilities to handle higher user demand seamlessly.
-- **Flight Search API:** Re-enable and expand flight search functionality with additional providers for better coverage and pricing options.
+- **Scalability:** Migrate to a more scalable cloud infrastructure with auto-scaling capabilities to handle higher user demand seamlessly.  
+- **Flight Search API:** Re-enable and expand flight search functionality with additional providers for better coverage and pricing options.  
+- **Booking API Integration:** Add support for accommodation booking APIs to allow users to search and book stays directly within the assistant.

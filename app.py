@@ -78,8 +78,6 @@ if submit:
     st.session_state.messages.append(("agent", response["messages"][-1].content))
     st.session_state.show_chat = True
 
-    print(f"FULL response {response}")
-
 # --- Chat Window ---
 if st.session_state.show_chat:
     for sender, msg in st.session_state.messages:

@@ -7,13 +7,11 @@ This Streamlit app helps users plan their trips using an intelligent travel assi
 Try out the live version of the Travel Planning Agent here:  
 [Travel Planning Agent - Live App](https://travelaiagent-qvsgksxgdshpzv7wkfimvl.streamlit.app/)
 
----
 
 ## Agent Purpose
 
 The Travel Assistant is designed to support users during the early stages of trip planning. Instead of filling out forms, users can describe their plans in natural language — and the AI takes care of the rest.
 
----
 
 ## Key Capabilities
 
@@ -30,7 +28,6 @@ The Travel Assistant is designed to support users during the early stages of tri
 > The search for the fastest direct flights via the Amadeus API is implemented but temporarily disabled due to an API disruption.  
 > For more information, see: [Amadeus for Developers](https://developers.amadeus.com/)
 
----
 
 ## Architecture (LangGraph)
 
@@ -80,8 +77,6 @@ os.environ["LANGSMITH_PROJECT"] = "AI_travel_planning_agent"
   *(Note: `search_fastest_flights` is currently disabled due to API issues.)*
 
 - **LangSmith Tracing**: Enables transparent debugging and performance monitoring via LangSmith.
-
----
 
 ## Evaluation
 

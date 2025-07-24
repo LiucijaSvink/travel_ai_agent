@@ -1,6 +1,6 @@
 # AI-Powered Travel Planning Agent
 
-This Streamlit app helps users plan their trips using an intelligent travel assistant powered by LLM agents and real-time tools. From extracting travel preferences expressed in natural language to suggesting flights, accommodations, and activities — this app reduces planning effort and saves time.
+This Streamlit app helps users plan their trips using an intelligent travel assistant powered by LLM agents and real-time tools. From extracting travel preferences expressed in natural language to suggesting accommodations and activities — this app reduces planning effort and saves time.
 
 ## Deployed Application
 

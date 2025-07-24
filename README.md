@@ -10,7 +10,7 @@ Try out the live version of the Travel Planning Agent here:
 
 ## Agent Purpose
 
-The Travel Assistant is designed to support users during the early stages of trip planning. Instead of filling out forms, users can describe their plans in natural language — and the AI takes care of the rest.
+This AI-powered travel planning assistant helps users organize trips. Users can input travel details via a form or natural language, including destinations, dates, and activity preferences. The app then provides personalized accommodation options and tailored activity recommendations to create a custom itinerary—making trip planning faster and more enjoyable through intelligent automation.
 
 
 ## Key Capabilities

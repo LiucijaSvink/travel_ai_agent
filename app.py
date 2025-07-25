@@ -3,9 +3,9 @@ from datetime import date, timedelta
 
 import streamlit as st
 
-# Utils and agent functions (adjust import paths if needed)
+# Utils and agent functions
 from utils.utils import get_api_key
-from agents.supervisor import run_supervisor_graph  # assumed main entrypoint
+from agents.supervisor import run_supervisor_graph
 
 # Set environment variables for API keys and endpoints
 os.environ["OPENAI_API_KEY"] = get_api_key("OPENAI_API_KEY")

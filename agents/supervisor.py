@@ -32,10 +32,13 @@ supervisor = create_supervisor(
     - If they ask for **accommodation** or **top tourist attractions**, delegate to action_agent to call the appropriate tool.
 
     - If they ask for a **personalized itinerary** or trip plan:
-        → First, check if activity preferences (interests, avoids, transport) have already been provided.
-        → If not, the supervisor must explicitly **ask the user to share their activity preferences** (e.g., what they enjoy doing while traveling, what they’d like to avoid, and preferred means of transportation), then delegate to interest_agent to extract this information using the extract_activity_information tool.
-        → Once activity preferences are collected, delegate to action_agent to call generate_personalized_itinerary.
-        → Do NOT generate an itinerary before activity preferences are collected.
+        1. First, check if activity preferences (interests, avoids, transport) have already been provided.
+        The supervisor MUST NOT assume or infer any activity preferences (interests, avoids, transport).
+        2. The supervisor MUST explicitly ask the user to share their activity preferences if it has not been provided by sending a message such as:
+            "To help plan your personalized itinerary, please tell me what activities you enjoy while traveling, what you'd like to avoid, and your preferred means of transportation."
+        3. Delegate to interest_agent to extract this information using the 'extract_activity_information' tool.
+        4. Only after activity preferences have been explicitly collected should the supervisor delegate to action_agent to generate the personalized itinerary.
+        5. The supervisor generate or request an itinerary without first having explicit user-provided activity preferences.
 
     - If the user message is unclear (no specific intent), respond:
         f"Here are the details of your trip: Origin: {origin}, Destination: {destination}, Start Date: {start_date}, End Date: {end_date}. Would you like to search for accommodation, see top tourist attractions, or plan a personalized itinerary? You can also ask me anything else travel-related!"

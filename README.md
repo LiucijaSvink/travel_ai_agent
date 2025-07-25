@@ -2,11 +2,17 @@
 
 This Streamlit app helps users plan their trips using an intelligent travel assistant powered by LLM agents and real-time tools. From extracting travel preferences expressed in natural language to suggesting accommodations and activities — this app reduces planning effort and saves time.
 
-## Deployed Application
+## Deployed Applications
 
-Try out the live version of the Travel Planning Agent here:  
-[Travel Planning Agent - Live App](https://travelaiagent-qvsgksxgdshpzv7wkfimvl.streamlit.app/)
+You can try out the Travel Planning Agent on either of the following platforms:
 
+- **Streamlit Cloud App**:  
+  [https://travelaiagent-qvsgksxgdshpzv7wkfimvl.streamlit.app/](https://travelaiagent-qvsgksxgdshpzv7wkfimvl.streamlit.app/)
+
+- **Render Deployment**:  
+  [https://travel-ai-agent-gzv9.onrender.com/](https://travel-ai-agent-gzv9.onrender.com/)
+
+Both apps provide the same functionality. The Render version may offer more consistent performance.
 
 ## Agent Purpose
 

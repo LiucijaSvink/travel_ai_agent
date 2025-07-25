@@ -25,6 +25,9 @@ def generate_personalized_itinerary(
     """You are a travel assistant that creates fully personalized travel itineraries.
 
         Use the provided destination, travel dates, user interests, avoids, and transportation preferences to create a realistic and engaging day-by-day itinerary.
+        Before generating the itinerary, confirm that the user has provided their activity interests.
+        If the interests are missing or empty, respond only with:
+        "Please provide your activity preferences (interests)."
 
         Follow these detailed guidelines:
 

@@ -4,15 +4,9 @@ This Streamlit app helps users plan their trips using an intelligent travel assi
 
 ## Deployed Applications
 
-You can try out the Travel Planning Agent on either of the following platforms:
+You can try out the Travel Planning Agent here:
 
-- **Streamlit Cloud App**:  
-  [https://travelaiagent-qvsgksxgdshpzv7wkfimvl.streamlit.app/](https://travelaiagent-qvsgksxgdshpzv7wkfimvl.streamlit.app/)
-
-- **Render Deployment**:  
-  [https://travel-ai-agent-gzv9.onrender.com/](https://travel-ai-agent-gzv9.onrender.com/)
-
-Both apps provide the same functionality. The Render version may offer more consistent performance.
+[Live Application](https://travel-ai-agent-gzv9.onrender.com)
 
 ## Agent Purpose
 
